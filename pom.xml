@@ -14,9 +14,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>web</module>
-        <module>service</module>
         <module>dao</module>
+        <module>service</module>
+        <module>web</module>
     </modules>
 
     <properties>
@@ -29,15 +29,5 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>3.1.5</version>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
