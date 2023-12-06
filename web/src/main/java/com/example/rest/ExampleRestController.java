@@ -1,5 +1,6 @@
 package com.example.rest;
 
+import com.example.dao.model.Example;
 import com.example.service.ExampleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +15,7 @@ class ExampleRestController {
   private ExampleService exampleService;
 
   @RequestMapping("/all")
-  List<String> showAll() {
+  List<Example> showAll() {
     return exampleService.getAllEntities();
   }
 }

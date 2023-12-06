@@ -1,6 +1,7 @@
 package com.example.dao.impl;
 
 import com.example.dao.ExampleDao;
+import com.example.dao.model.Example;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.List;
 class ExampleDaoImpl implements ExampleDao {
 
   @Override
-  public List<String> getAll() { // TODO probably adding model will be useful as well
-    return List.of("entity_1", "entity_2", "entity_3");
+  public List<Example> getAll() {
+    return List.of(new Example("1", "data_1"), new Example("2", "data_2"));
   }
 }
