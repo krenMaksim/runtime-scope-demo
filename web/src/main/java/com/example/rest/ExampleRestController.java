@@ -1,13 +1,20 @@
 package com.example.rest;
 
+import com.example.service.ExampleService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 class ExampleRestController {
 
-  @RequestMapping("/hello-world")
-  String helloWorld() {
-    return "Hellow world";
+  @Autowired
+  private ExampleService exampleService;
+
+  @RequestMapping("/all")
+  List<String> showAll() {
+    return exampleService.getAllEntities();
   }
 }
