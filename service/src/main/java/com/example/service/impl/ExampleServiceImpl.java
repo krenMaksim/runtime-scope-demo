@@ -2,7 +2,7 @@ package com.example.service.impl;
 
 import com.example.dao.api.ExampleDao;
 import com.example.dao.api.model.Example;
-import com.example.service.ExampleService;
+import com.example.service.api.ExampleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
