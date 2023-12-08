@@ -1,6 +1,6 @@
 package com.example.rest;
 
-import com.example.dao.model.Example;
+import com.example.dao.api.model.Example;
 import com.example.service.ExampleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

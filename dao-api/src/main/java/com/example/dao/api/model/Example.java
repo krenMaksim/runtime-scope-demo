@@ -1,4 +1,4 @@
-package com.example.dao.model;
+package com.example.dao.api.model;
 
 public record Example(String id, String data) {
 }

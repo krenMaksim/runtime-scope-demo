@@ -15,6 +15,7 @@
 
     <modules>
         <module>dao</module>
+        <module>dao-api</module>
         <module>service</module>
         <module>web</module>
     </modules>

@@ -1,6 +1,6 @@
-package com.example.dao;
+package com.example.dao.api;
 
-import com.example.dao.model.Example;
+import com.example.dao.api.model.Example;
 
 import java.util.List;
 
