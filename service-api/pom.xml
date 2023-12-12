@@ -10,12 +10,4 @@
     </parent>
 
     <artifactId>service-api</artifactId>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>dao-api</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 </project>
