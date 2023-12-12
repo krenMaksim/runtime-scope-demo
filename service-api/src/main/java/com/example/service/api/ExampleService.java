@@ -1,6 +1,6 @@
 package com.example.service.api;
 
-import com.example.dao.api.model.Example;
+import com.example.service.api.model.Example;
 
 import java.util.List;
 
