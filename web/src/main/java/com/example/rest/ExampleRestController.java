@@ -1,7 +1,7 @@
 package com.example.rest;
 
-import com.example.dao.model.Example;
 import com.example.service.ExampleService;
+import com.example.service.model.Example;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
